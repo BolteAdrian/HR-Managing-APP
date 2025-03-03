@@ -13,6 +13,13 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+# Ignore local development settings
+appsettings.Development.json
+appsettings.json
+
+# Ignore backup files
+Startup.cs.bak
+
 # Mono auto generated files
 mono_crash.*
 
